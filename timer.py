@@ -5,7 +5,7 @@ from discord import app_commands
 def setup_timer_command(bot: discord.Client):
     @bot.tree.command(
         name="timer",
-        description="指定した分後に通知しますわ"
+        description="指定した分後に通知いたします。"
     )
     @app_commands.describe(minutes="何分後に通知しますか？")
     async def timer(interaction: discord.Interaction, minutes: int):
@@ -17,11 +17,11 @@ def setup_timer_command(bot: discord.Client):
             return
 
         await interaction.response.send_message(
-            f"{minutes}分後にお知らせいたしますわ ⏰"
+            f"{minutes}分後にお知らせいたしますね。 ⏰"
         )
 
         await asyncio.sleep(minutes * 60)
 
         await interaction.followup.send(
-            f"{interaction.user.mention} ⏰ {minutes}分経過しましたわ！"
+            f"{interaction.user.mention} ⏰ {minutes}分経過しました！"
         )

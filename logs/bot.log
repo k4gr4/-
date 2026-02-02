@@ -1,0 +1,7 @@
+[2026-01-18 04:45:57,917] [INFO] [discord.client] logging in using static token
+[2026-01-18 04:45:59,245] [INFO] [discord.gateway] Shard ID None has connected to Gateway (Session ID: bd541ae07686cc266e947a0058a9407a).
+[2026-01-18 04:46:01,262] [INFO] [SteamWishlist] SteamWishlistWatcher started
+[2026-01-18 04:46:01,262] [INFO] [SteamWishlist] Waiting 10 minutes before first auto check
+[2026-01-18 04:56:01,262] [INFO] [SteamWishlist] Auto wishlist check started
+[2026-01-18 04:56:01,265] [INFO] [SteamWishlist] Fetching wishlist from Steam
+[2026-01-18 04:56:01,920] [WARNING] [SteamWishlist] Non-JSON response received (Steam returned HTML)
